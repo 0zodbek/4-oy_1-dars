@@ -1,145 +1,145 @@
-// 1-masla
+1-masla
 
-// let l = +prompt('l');
+let l = +prompt('l');
 
-// let a = Math.floor(l/100);
+let a = Math.floor(l/100);
 
-// console.log(a);
+console.log(a);
 
-// 2-masala
+2-masala
 
-// let kg = +prompt("kg");
+let kg = +prompt("kg");
 
-// let t = Math.floor(kg/1000);
+let t = Math.floor(kg/1000);
 
-// console.log(t);
+console.log(t);
 
-// 3-masala
+3-masala
 
-// let b = +prompt("b");
+let b = +prompt("b");
 
-// let kb = Math.floor(b/1024);
+let kb = Math.floor(b/1024);
 
-// console.log(kb);
+console.log(kb);
 
-// 4-masala
+4-masala
 
-// alert('a>b');
+alert('a>b');
 
-// let a = +prompt("a");
+let a = +prompt("a");
 
-// let b = +prompt("b");
+let b = +prompt("b");
 
-// let n = Math.floor(a/b);
+let n = Math.floor(a/b);
 
-// console.log(n);
+console.log(n);
 
-// 5-masala
+5-masala
 
-// let a = +prompt("a");
+let a = +prompt("a");
 
-// let b = +prompt("b");
+let b = +prompt("b");
 
-// let n = Math.floor(a%b);
+let n = Math.floor(a%b);
 
-// console.log(n);
+console.log(n);
 
-// 6-masala
+6-masala
 
-// alert(' a = ikki honali son');
+alert(' a = ikki honali son');
 
-// let a = +prompt('a');
+let a = +prompt('a');
 
-// let n = Math.floor(a/10);
+let n = Math.floor(a/10);
 
-// console.log(n);
+console.log(n);
 
-// let m = Math.floor(a%10);
+let m = Math.floor(a%10);
 
-// console.log(m)
+console.log(m)
 
-// 7-masala
+7-masala
 
-// let n = +prompt("n");
+let n = +prompt("n");
 
-// let o = Math.floor(n/10);
+let o = Math.floor(n/10);
 
-// let b = Math.floor(n%10);
+let b = Math.floor(n%10);
 
-// let m = Math.floor(o+b);
+let m = Math.floor(o+b);
 
-// console.log(m);
+console.log(m);
 
-// 8-masala
+8-masala
 
-// let n = +prompt('n');
+let n = +prompt('n');
 
-// let m = Math.floor(n/10);
+let m = Math.floor(n/10);
 
-// let c = Math.floor(n%10);
+let c = Math.floor(n%10);
 
-// let w = Math.floor((c*10)+m);
+let w = Math.floor((c*10)+m);
 
-// console.log(w);
+console.log(w);
 
-// 9-masala
+9-masala
 
-// let n = +prompt('n');
+let n = +prompt('n');
 
-// let c = Math.floor(n/100);
+let c = Math.floor(n/100);
 
-// console.log(c);
+console.log(c);
 
-// 10-masala
+10-masala
 
-// let n = +prompt('n');
+let n = +prompt('n');
 
-// let b = Math.floor(n%10);
+let b = Math.floor(n%10);
 
-// let o = Math.floor(n/10%10);
+let o = Math.floor(n/10%10);
 
-// console.log(b);
+console.log(b);
 
-// console.log(o);
+console.log(o);
 
-// 11-masala
+11-masala
 
-// alert('99<n<1000')
+alert('99<n<1000')
 
-// let n = +prompt('n');
+let n = +prompt('n');
 
-// let y = Math.floor(n/100);
+let y = Math.floor(n/100);
 
-// let o = Math.floor(n/10%10);
+let o = Math.floor(n/10%10);
 
-// let b = Math.floor(n%10);
+let b = Math.floor(n%10);
 
-// console.log(b+o+y);
+console.log(b+o+y);
 
-// 12-masala
+12-masala
 
-// alert('99<n<1000')
+alert('99<n<1000')
 
-// let n = +prompt('n');
+let n = +prompt('n');
 
-// let y = Math.floor(n/100);
+let y = Math.floor(n/100);
 
-// let o = Math.floor(n/10%10);
+let o = Math.floor(n/10%10);
 
-// let b = Math.floor(n%10);
+let b = Math.floor(n%10);
 
-// console.log(b,o,y);
+console.log(b,o,y);
 
-// 13-masala
+13-masala
 
-// alert('99<n<1000')
+alert('99<n<1000')
 
-// let n = +prompt('n');
+let n = +prompt('n');
 
-// let y = Math.floor(n/100);
+let y = Math.floor(n/100);
 
-// let o = Math.floor(n/10%10);
+let o = Math.floor(n/10%10);
 
-// let b = Math.floor(n%10);
+let b = Math.floor(n%10);
 
-// console.log((o*100)+(b*10)+y);
+console.log((o*100)+(b*10)+y);
