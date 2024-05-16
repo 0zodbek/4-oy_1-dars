@@ -1,145 +1,161 @@
-1-masla
+// 1-masla
 
-let l = +prompt('l');
+// alert('L sm da berilgan uzunlikni toliq metrlar sonini topish');
 
-let a = Math.floor(l/100);
+// let sm = +prompt('sm');
 
-console.log(a);
+// let Metr = Math.floor(sm/100);
 
-2-masala
+// console.log(Metr);
 
-let kg = +prompt("kg");
+// 2-masala
 
-let t = Math.floor(kg/1000);
+// alert('massa M kg da berilgan toliq tonnalar sonini topish');
 
-console.log(t);
+// let kg = +prompt("kg");
 
-3-masala
+// let Tonna = Math.floor(kg/1000);
 
-let b = +prompt("b");
+// console.log(Tonna);
 
-let kb = Math.floor(b/1024);
+// 3-masala
 
-console.log(kb);
+// alert('fayl hajimi baytda berib undagi toliq kb ni topish');
 
-4-masala
+// let bayt = +prompt("bayt");
 
-alert('a>b');
+// let kb = Math.floor(bayt/1024);
 
-let a = +prompt("a");
+// console.log(kb);
 
-let b = +prompt("b");
+// 4-masala
 
-let n = Math.floor(a/b);
+// alert('A va B musbat soni berilgan A>B A kesmada B kesmani necha marta toliq joylashtirish mumkin ekanligini aniqlash ');
 
-console.log(n);
+// let A = +prompt("A");
 
-5-masala
+// let B = +prompt("B");
 
-let a = +prompt("a");
+// let N = Math.floor(A/B);
 
-let b = +prompt("b");
+// console.log(N);
 
-let n = Math.floor(a%b);
+// 5-masala
 
-console.log(n);
+// alert('A va B musbat soni berilgan A>B A kesmada B kesmani joylashmagan qismini aniqlash');
 
-6-masala
+// let a_kesma = +prompt("a_kesma");
 
-alert(' a = ikki honali son');
+// let b_kesma = +prompt("b_kesma");
 
-let a = +prompt('a');
+// let n = Math.floor(a_kesma%b_kesma);
 
-let n = Math.floor(a/10);
+// console.log(n);
 
-console.log(n);
+// 6-masala
 
-let m = Math.floor(a%10);
+// alert('a = ikki honali son berilgan oldin o'nliklar xonasidagi so'ng birlar xonasidagi sonni chiqarish');
 
-console.log(m)
+// let a = +prompt('a');
 
-7-masala
+// let n = Math.floor(a/10);
 
-let n = +prompt("n");
+// console.log(n);
 
-let o = Math.floor(n/10);
+// let m = Math.floor(a%10);
 
-let b = Math.floor(n%10);
+// console.log(m)
 
-let m = Math.floor(o+b);
+// 7-masala
 
-console.log(m);
+// alert('ikki xonali son berilgan uni raqamlari yigindisini topish');
 
-8-masala
+// let n = +prompt("n");
 
-let n = +prompt('n');
+// let o = Math.floor(n/10);
 
-let m = Math.floor(n/10);
+// let b = Math.floor(n%10);
 
-let c = Math.floor(n%10);
+// let m = Math.floor(o+b);
 
-let w = Math.floor((c*10)+m);
+// console.log(m);
 
-console.log(w);
+// 8-masala
 
-9-masala
+// alert('ikki xonali son beilgan uning raqamlari almashtishdan xosil bolgan sonni aniqlovchi algoritm');
 
-let n = +prompt('n');
+// let n = +prompt('n');
 
-let c = Math.floor(n/100);
+// let m = Math.floor(n/10);
 
-console.log(c);
+// let c = Math.floor(n%10);
 
-10-masala
+// let w = Math.floor((c*10)+m);
 
-let n = +prompt('n');
+// console.log(w);
 
-let b = Math.floor(n%10);
+// 9-masala
 
-let o = Math.floor(n/10%10);
+// alert('uch xonali son berilgan yuzlar xonasidagi raqamni aniqlovchi algoritm');
 
-console.log(b);
+// let n = +prompt('n');
 
-console.log(o);
+// let c = Math.floor(n/100);
 
-11-masala
+// console.log(c);
 
-alert('99<n<1000')
+// 10-masala
 
-let n = +prompt('n');
+// alert('uch xonali son berilgan oldin birlar xonasidagi song onlar xonasida raqamni aniqlovchi algoritm');
 
-let y = Math.floor(n/100);
+// let n = +prompt('n');
 
-let o = Math.floor(n/10%10);
+// let b = Math.floor(n%10);
 
-let b = Math.floor(n%10);
+// let o = Math.floor(n/10%10);
 
-console.log(b+o+y);
+// console.log(b);
 
-12-masala
+// console.log(o);
 
-alert('99<n<1000')
+// 11-masala
 
-let n = +prompt('n');
+// alert('uch xonali son berilgan raqamlari yigindisini aliqlovchi algoritm');
 
-let y = Math.floor(n/100);
+// let n = +prompt('n');
 
-let o = Math.floor(n/10%10);
+// let y = Math.floor(n/100);
 
-let b = Math.floor(n%10);
+// let o = Math.floor(n/10%10);
 
-console.log(b,o,y);
+// let b = Math.floor(n%10);
 
-13-masala
+// console.log(b+o+y);
 
-alert('99<n<1000')
+// 12-masala
 
-let n = +prompt('n');
+// alert('uch xonali son berilgan raqamlarini teskari tartibda yozuvchi algoritm');
 
-let y = Math.floor(n/100);
+// let n = +prompt('n');
 
-let o = Math.floor(n/10%10);
+// let y = Math.floor(n/100);
 
-let b = Math.floor(n%10);
+// let o = Math.floor(n/10%10);
 
-console.log((o*100)+(b*10)+y);
+// let b = Math.floor(n%10);
+
+// console.log(b,o,y);
+
+// 13-masala
+
+// alert('uch xonali son berilgan uni chapdan birinchi raqamini ochirib ongdan yozish bilan hosil bolgan sonni aniqlash algoritmi');
+
+// let n = +prompt('n');
+
+// let y = Math.floor(n/100);
+
+// let o = Math.floor(n/10%10);
+
+// let b = Math.floor(n%10);
+
+// console.log((o*100)+(b*10)+y);
